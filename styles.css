@@ -1,39 +1,90 @@
-.body {
-    font-family: "Roboto", sans-serif;
-    min-height: 100vh;
+body {
+    background-color: #FFFFFF;
+    padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto', arial;
 }
+
+/* Header Section */
 
 .header {
+    display: flex;
+    color: #F9FAF8;
     background-color: #1F2937;
-    color:white ;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.title {
     font-size: 24px;
-    font-weight: 30;
-    height: auto;
-    padding: 8 16px;
-    gap: 0;
-    margin-top: 8px;
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
+    color: #FFFFFF;
 }
 
-.left-links {
+.header-links {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    color: white;
-    padding:0;
-    gap: 8px;
-    list-style-type: none;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px; 
 }
 
-.ul {
-    list-style-type: none;
-    padding: 8px;
-    color: white;
+.header-links .a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', arial;
+    font-size: 18px;
+    padding: 10px;
     gap: 8px;
-    margin-left: 0;
+}
+
+/* Hero Section */
+
+.hero {
+    display:flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    gap: 20px;
+}
+
+.hero-intro {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero-intro p {
+    font-family: 'Roboto', arial;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 100px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image-1 img {
+    width: 400px;
+    height: 500px;
 }
